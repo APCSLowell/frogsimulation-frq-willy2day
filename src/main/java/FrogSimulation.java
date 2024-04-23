@@ -26,7 +26,7 @@ public class FrogSimulation
 		else if (dist>=goalDistance)
 			return true;
 		
-		return false
+		return false;
 		
 
 	}
@@ -36,7 +36,7 @@ public class FrogSimulation
 		/* to be implemented in part (b) */ 
 		double T=0;
 		for (int i=num; i>0;i--){
-			if (simulate()==true;
+			if (simulate()==true);
 				T++;
 			else F++;
 		}
