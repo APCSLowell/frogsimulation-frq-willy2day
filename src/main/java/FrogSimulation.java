@@ -23,7 +23,7 @@ public class FrogSimulation
 			hops++;}
 		 if (dist<0)
 			return false;
-		ekse if (dist>=goalDistance)
+		else if (dist>=goalDistance)
 			return true;
 		
 		return false
