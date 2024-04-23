@@ -21,10 +21,11 @@ public class FrogSimulation
 		while (hops<maxHops){
 			dist+=hopDistance();
 			hops++;}
-		if (dist>=goalDistance)
-			return true;
-		else if (dist<0)
+		 if (dist<0)
 			return false;
+		ekse if (dist>=goalDistance)
+			return true;
+		
 		return false
 		
 
@@ -34,13 +35,12 @@ public class FrogSimulation
 	{ 
 		/* to be implemented in part (b) */ 
 		double T=0;
-		double F=0; 
 		for (int i=num; i>0;i--){
-			if (this.simulate()==true;
-				T==;
+			if (simulate()==true;
+				T++;
 			else F++;
 		}
-		return T/F; 
+		return T/num; 
 
 	}
 	
